@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA015E2D1FF29A4D00A61D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA015E2C1FF29A4D00A61D8F /* AppDelegate.swift */; };
+		EA015E2F1FF29A4D00A61D8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA015E2E1FF29A4D00A61D8F /* ViewController.swift */; };
+		EA015E321FF29A4D00A61D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA015E301FF29A4D00A61D8F /* Main.storyboard */; };
+		EA015E341FF29A4D00A61D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA015E331FF29A4D00A61D8F /* Assets.xcassets */; };
+		EA015E371FF29A4D00A61D8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA015E351FF29A4D00A61D8F /* LaunchScreen.storyboard */; };
+		EA015E421FF29A4D00A61D8F /* SkischoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA015E411FF29A4D00A61D8F /* SkischoolTests.swift */; };
+		EA015E4D1FF29A4E00A61D8F /* SkischoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA015E4C1FF29A4E00A61D8F /* SkischoolUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA015E3E1FF29A4D00A61D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA015E211FF29A4D00A61D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA015E281FF29A4D00A61D8F;
+			remoteInfo = Skischool;
+		};
+		EA015E491FF29A4E00A61D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA015E211FF29A4D00A61D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA015E281FF29A4D00A61D8F;
+			remoteInfo = Skischool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA015E291FF29A4D00A61D8F /* Skischool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skischool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA015E2C1FF29A4D00A61D8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA015E2E1FF29A4D00A61D8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA015E311FF29A4D00A61D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA015E331FF29A4D00A61D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA015E361FF29A4D00A61D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA015E381FF29A4D00A61D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA015E3D1FF29A4D00A61D8F /* SkischoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkischoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA015E411FF29A4D00A61D8F /* SkischoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkischoolTests.swift; sourceTree = "<group>"; };
+		EA015E431FF29A4D00A61D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA015E481FF29A4D00A61D8F /* SkischoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkischoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA015E4C1FF29A4E00A61D8F /* SkischoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkischoolUITests.swift; sourceTree = "<group>"; };
+		EA015E4E1FF29A4E00A61D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA015E261FF29A4D00A61D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA015E3A1FF29A4D00A61D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA015E451FF29A4D00A61D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA015E201FF29A4D00A61D8F = {
+			isa = PBXGroup;
+			children = (
+				EA015E2B1FF29A4D00A61D8F /* Skischool */,
+				EA015E401FF29A4D00A61D8F /* SkischoolTests */,
+				EA015E4B1FF29A4E00A61D8F /* SkischoolUITests */,
+				EA015E2A1FF29A4D00A61D8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA015E2A1FF29A4D00A61D8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA015E291FF29A4D00A61D8F /* Skischool.app */,
+				EA015E3D1FF29A4D00A61D8F /* SkischoolTests.xctest */,
+				EA015E481FF29A4D00A61D8F /* SkischoolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA015E2B1FF29A4D00A61D8F /* Skischool */ = {
+			isa = PBXGroup;
+			children = (
+				EA015E2C1FF29A4D00A61D8F /* AppDelegate.swift */,
+				EA015E2E1FF29A4D00A61D8F /* ViewController.swift */,
+				EA015E301FF29A4D00A61D8F /* Main.storyboard */,
+				EA015E331FF29A4D00A61D8F /* Assets.xcassets */,
+				EA015E351FF29A4D00A61D8F /* LaunchScreen.storyboard */,
+				EA015E381FF29A4D00A61D8F /* Info.plist */,
+			);
+			path = Skischool;
+			sourceTree = "<group>";
+		};
+		EA015E401FF29A4D00A61D8F /* SkischoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA015E411FF29A4D00A61D8F /* SkischoolTests.swift */,
+				EA015E431FF29A4D00A61D8F /* Info.plist */,
+			);
+			path = SkischoolTests;
+			sourceTree = "<group>";
+		};
+		EA015E4B1FF29A4E00A61D8F /* SkischoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA015E4C1FF29A4E00A61D8F /* SkischoolUITests.swift */,
+				EA015E4E1FF29A4E00A61D8F /* Info.plist */,
+			);
+			path = SkischoolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA015E281FF29A4D00A61D8F /* Skischool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA015E511FF29A4E00A61D8F /* Build configuration list for PBXNativeTarget "Skischool" */;
+			buildPhases = (
+				EA015E251FF29A4D00A61D8F /* Sources */,
+				EA015E261FF29A4D00A61D8F /* Frameworks */,
+				EA015E271FF29A4D00A61D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skischool;
+			productName = Skischool;
+			productReference = EA015E291FF29A4D00A61D8F /* Skischool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA015E3C1FF29A4D00A61D8F /* SkischoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA015E541FF29A4E00A61D8F /* Build configuration list for PBXNativeTarget "SkischoolTests" */;
+			buildPhases = (
+				EA015E391FF29A4D00A61D8F /* Sources */,
+				EA015E3A1FF29A4D00A61D8F /* Frameworks */,
+				EA015E3B1FF29A4D00A61D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA015E3F1FF29A4D00A61D8F /* PBXTargetDependency */,
+			);
+			name = SkischoolTests;
+			productName = SkischoolTests;
+			productReference = EA015E3D1FF29A4D00A61D8F /* SkischoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA015E471FF29A4D00A61D8F /* SkischoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA015E571FF29A4E00A61D8F /* Build configuration list for PBXNativeTarget "SkischoolUITests" */;
+			buildPhases = (
+				EA015E441FF29A4D00A61D8F /* Sources */,
+				EA015E451FF29A4D00A61D8F /* Frameworks */,
+				EA015E461FF29A4D00A61D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA015E4A1FF29A4E00A61D8F /* PBXTargetDependency */,
+			);
+			name = SkischoolUITests;
+			productName = SkischoolUITests;
+			productReference = EA015E481FF29A4D00A61D8F /* SkischoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA015E211FF29A4D00A61D8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Hogent;
+				TargetAttributes = {
+					EA015E281FF29A4D00A61D8F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					EA015E3C1FF29A4D00A61D8F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA015E281FF29A4D00A61D8F;
+					};
+					EA015E471FF29A4D00A61D8F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA015E281FF29A4D00A61D8F;
+					};
+				};
+			};
+			buildConfigurationList = EA015E241FF29A4D00A61D8F /* Build configuration list for PBXProject "Skischool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA015E201FF29A4D00A61D8F;
+			productRefGroup = EA015E2A1FF29A4D00A61D8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA015E281FF29A4D00A61D8F /* Skischool */,
+				EA015E3C1FF29A4D00A61D8F /* SkischoolTests */,
+				EA015E471FF29A4D00A61D8F /* SkischoolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA015E271FF29A4D00A61D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA015E371FF29A4D00A61D8F /* LaunchScreen.storyboard in Resources */,
+				EA015E341FF29A4D00A61D8F /* Assets.xcassets in Resources */,
+				EA015E321FF29A4D00A61D8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA015E3B1FF29A4D00A61D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA015E461FF29A4D00A61D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA015E251FF29A4D00A61D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA015E2F1FF29A4D00A61D8F /* ViewController.swift in Sources */,
+				EA015E2D1FF29A4D00A61D8F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA015E391FF29A4D00A61D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA015E421FF29A4D00A61D8F /* SkischoolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA015E441FF29A4D00A61D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA015E4D1FF29A4E00A61D8F /* SkischoolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA015E3F1FF29A4D00A61D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA015E281FF29A4D00A61D8F /* Skischool */;
+			targetProxy = EA015E3E1FF29A4D00A61D8F /* PBXContainerItemProxy */;
+		};
+		EA015E4A1FF29A4E00A61D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA015E281FF29A4D00A61D8F /* Skischool */;
+			targetProxy = EA015E491FF29A4E00A61D8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA015E301FF29A4D00A61D8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA015E311FF29A4D00A61D8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA015E351FF29A4D00A61D8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA015E361FF29A4D00A61D8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA015E4F1FF29A4E00A61D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA015E501FF29A4E00A61D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA015E521FF29A4E00A61D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Skischool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dylan.Skischool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA015E531FF29A4E00A61D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Skischool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dylan.Skischool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA015E551FF29A4E00A61D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkischoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dylan.SkischoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skischool.app/Skischool";
+			};
+			name = Debug;
+		};
+		EA015E561FF29A4E00A61D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkischoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dylan.SkischoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skischool.app/Skischool";
+			};
+			name = Release;
+		};
+		EA015E581FF29A4E00A61D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkischoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dylan.SkischoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skischool;
+			};
+			name = Debug;
+		};
+		EA015E591FF29A4E00A61D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkischoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dylan.SkischoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skischool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA015E241FF29A4D00A61D8F /* Build configuration list for PBXProject "Skischool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA015E4F1FF29A4E00A61D8F /* Debug */,
+				EA015E501FF29A4E00A61D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA015E511FF29A4E00A61D8F /* Build configuration list for PBXNativeTarget "Skischool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA015E521FF29A4E00A61D8F /* Debug */,
+				EA015E531FF29A4E00A61D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA015E541FF29A4E00A61D8F /* Build configuration list for PBXNativeTarget "SkischoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA015E551FF29A4E00A61D8F /* Debug */,
+				EA015E561FF29A4E00A61D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA015E571FF29A4E00A61D8F /* Build configuration list for PBXNativeTarget "SkischoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA015E581FF29A4E00A61D8F /* Debug */,
+				EA015E591FF29A4E00A61D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA015E211FF29A4D00A61D8F /* Project object */;
+}
