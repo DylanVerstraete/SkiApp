@@ -16,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //UINavigationBar.appearance().backgroundColor = UIColor.blue
+        //UIBarButtonItem.appearance().tintColor = UIColor.black
+        //Since iOS 7.0 UITextAttributeTextColor was replaced by NSForegroundColorAttributeName
+        //UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey(rawValue: UITextAttributeTextColor): UIColor.blue]
+        //UITabBar.appearance().backgroundColor = UIColor.blue;
         return true
     }
 
@@ -43,4 +48,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+
 

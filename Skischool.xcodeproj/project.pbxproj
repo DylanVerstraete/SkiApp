@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2146BB6143817B713F832C2D /* Pods_SkischoolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B58C3F00A9E5493185BDED /* Pods_SkischoolUITests.framework */; };
+		63EC147CC6255D838FA2A1A2 /* Pods_SkischoolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FE148D7AD076D090C6F1B1 /* Pods_SkischoolTests.framework */; };
 		EA015E2D1FF29A4D00A61D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA015E2C1FF29A4D00A61D8F /* AppDelegate.swift */; };
-		EA015E2F1FF29A4D00A61D8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA015E2E1FF29A4D00A61D8F /* ViewController.swift */; };
 		EA015E321FF29A4D00A61D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA015E301FF29A4D00A61D8F /* Main.storyboard */; };
 		EA015E341FF29A4D00A61D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA015E331FF29A4D00A61D8F /* Assets.xcassets */; };
 		EA015E371FF29A4D00A61D8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA015E351FF29A4D00A61D8F /* LaunchScreen.storyboard */; };
 		EA015E421FF29A4D00A61D8F /* SkischoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA015E411FF29A4D00A61D8F /* SkischoolTests.swift */; };
 		EA015E4D1FF29A4E00A61D8F /* SkischoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA015E4C1FF29A4E00A61D8F /* SkischoolUITests.swift */; };
+		EA015E5D1FF29AF800A61D8F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA015E5C1FF29AF800A61D8F /* User.swift */; };
+		EA015E5F1FF29B1400A61D8F /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA015E5E1FF29B1400A61D8F /* Member.swift */; };
+		EA015E611FF29B1D00A61D8F /* Skicard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA015E601FF29B1D00A61D8F /* Skicard.swift */; };
+		EA015E641FF29B4B00A61D8F /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA015E631FF29B4B00A61D8F /* UserService.swift */; };
+		EA015E661FF29B8400A61D8F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA015E651FF29B8400A61D8F /* LoginController.swift */; };
+		EA015E681FF29F7F00A61D8F /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA015E671FF29F7F00A61D8F /* RegisterController.swift */; };
+		EA32E2A91FF564C20037EF50 /* GalleryDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA32E2A81FF564C20037EF50 /* GalleryDetailController.swift */; };
+		EAC1B6731FF44AB500A45F29 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC1B6721FF44AB500A45F29 /* HomeController.swift */; };
+		EACD695A1FF3B9190073E677 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD69591FF3B9190073E677 /* ProfileController.swift */; };
+		EACD695C1FF3CE6C0073E677 /* ProfielEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD695B1FF3CE6C0073E677 /* ProfielEditController.swift */; };
+		EAE9C7421FF4FABC00D32802 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9C7411FF4FABC00D32802 /* NavigationController.swift */; };
+		EAE9C7441FF5127700D32802 /* GalleryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9C7431FF5127700D32802 /* GalleryController.swift */; };
+		EAE9C7461FF512D100D32802 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9C7451FF512D100D32802 /* Image.swift */; };
+		EAE9C7491FF5161600D32802 /* GalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9C7481FF5161600D32802 /* GalleryCell.swift */; };
+		EAE9C74B1FF53E8B00D32802 /* GalleryAddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9C74A1FF53E8B00D32802 /* GalleryAddController.swift */; };
+		FCFFFD1AF1E1BDA258AE68F1 /* Pods_Skischool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9398ABE84D5EDB7B622883 /* Pods_Skischool.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +51,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02FE148D7AD076D090C6F1B1 /* Pods_SkischoolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkischoolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		112EB997EA637FA1C746C803 /* Pods-SkischoolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkischoolTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkischoolTests/Pods-SkischoolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		218B7C0A4F87E5A6047CE346 /* Pods-SkischoolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkischoolUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkischoolUITests/Pods-SkischoolUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3BC05CB2C1BB07028B41083C /* Pods-Skischool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skischool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Skischool/Pods-Skischool.debug.xcconfig"; sourceTree = "<group>"; };
+		45F5FEACB112B01689CDA15B /* Pods-SkischoolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkischoolUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkischoolUITests/Pods-SkischoolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		507A5FF7E1ED1BE23AADFF23 /* Pods-Skischool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skischool.release.xcconfig"; path = "Pods/Target Support Files/Pods-Skischool/Pods-Skischool.release.xcconfig"; sourceTree = "<group>"; };
+		D1B58C3F00A9E5493185BDED /* Pods_SkischoolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkischoolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E68CFA2D2851415E61349854 /* Pods-SkischoolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkischoolTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkischoolTests/Pods-SkischoolTests.release.xcconfig"; sourceTree = "<group>"; };
 		EA015E291FF29A4D00A61D8F /* Skischool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skischool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA015E2C1FF29A4D00A61D8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA015E2E1FF29A4D00A61D8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA015E311FF29A4D00A61D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA015E331FF29A4D00A61D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA015E361FF29A4D00A61D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +71,22 @@
 		EA015E481FF29A4D00A61D8F /* SkischoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkischoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA015E4C1FF29A4E00A61D8F /* SkischoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkischoolUITests.swift; sourceTree = "<group>"; };
 		EA015E4E1FF29A4E00A61D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA015E5C1FF29AF800A61D8F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EA015E5E1FF29B1400A61D8F /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		EA015E601FF29B1D00A61D8F /* Skicard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skicard.swift; sourceTree = "<group>"; };
+		EA015E631FF29B4B00A61D8F /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		EA015E651FF29B8400A61D8F /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		EA015E671FF29F7F00A61D8F /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		EA32E2A81FF564C20037EF50 /* GalleryDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryDetailController.swift; sourceTree = "<group>"; };
+		EAC1B6721FF44AB500A45F29 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		EACD69591FF3B9190073E677 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		EACD695B1FF3CE6C0073E677 /* ProfielEditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfielEditController.swift; sourceTree = "<group>"; };
+		EAE9C7411FF4FABC00D32802 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		EAE9C7431FF5127700D32802 /* GalleryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryController.swift; sourceTree = "<group>"; };
+		EAE9C7451FF512D100D32802 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		EAE9C7481FF5161600D32802 /* GalleryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCell.swift; sourceTree = "<group>"; };
+		EAE9C74A1FF53E8B00D32802 /* GalleryAddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryAddController.swift; sourceTree = "<group>"; };
+		ED9398ABE84D5EDB7B622883 /* Pods_Skischool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skischool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCFFFD1AF1E1BDA258AE68F1 /* Pods_Skischool.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63EC147CC6255D838FA2A1A2 /* Pods_SkischoolTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +110,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2146BB6143817B713F832C2D /* Pods_SkischoolUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F6E3877DC7B437D3B971765 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BC05CB2C1BB07028B41083C /* Pods-Skischool.debug.xcconfig */,
+				507A5FF7E1ED1BE23AADFF23 /* Pods-Skischool.release.xcconfig */,
+				112EB997EA637FA1C746C803 /* Pods-SkischoolTests.debug.xcconfig */,
+				E68CFA2D2851415E61349854 /* Pods-SkischoolTests.release.xcconfig */,
+				45F5FEACB112B01689CDA15B /* Pods-SkischoolUITests.debug.xcconfig */,
+				218B7C0A4F87E5A6047CE346 /* Pods-SkischoolUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ACBCECDFB128D68E9B1C97B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED9398ABE84D5EDB7B622883 /* Pods_Skischool.framework */,
+				02FE148D7AD076D090C6F1B1 /* Pods_SkischoolTests.framework */,
+				D1B58C3F00A9E5493185BDED /* Pods_SkischoolUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EA015E201FF29A4D00A61D8F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +147,8 @@
 				EA015E401FF29A4D00A61D8F /* SkischoolTests */,
 				EA015E4B1FF29A4E00A61D8F /* SkischoolUITests */,
 				EA015E2A1FF29A4D00A61D8F /* Products */,
+				2F6E3877DC7B437D3B971765 /* Pods */,
+				ACBCECDFB128D68E9B1C97B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +165,11 @@
 		EA015E2B1FF29A4D00A61D8F /* Skischool */ = {
 			isa = PBXGroup;
 			children = (
+				EAE9C7471FF5160800D32802 /* Cells */,
+				EA015E621FF29B3F00A61D8F /* Services */,
+				EA015E5B1FF29AED00A61D8F /* Models */,
+				EA015E5A1FF29AE400A61D8F /* Controllers */,
 				EA015E2C1FF29A4D00A61D8F /* AppDelegate.swift */,
-				EA015E2E1FF29A4D00A61D8F /* ViewController.swift */,
 				EA015E301FF29A4D00A61D8F /* Main.storyboard */,
 				EA015E331FF29A4D00A61D8F /* Assets.xcassets */,
 				EA015E351FF29A4D00A61D8F /* LaunchScreen.storyboard */,
@@ -125,6 +196,49 @@
 			path = SkischoolUITests;
 			sourceTree = "<group>";
 		};
+		EA015E5A1FF29AE400A61D8F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA015E651FF29B8400A61D8F /* LoginController.swift */,
+				EA015E671FF29F7F00A61D8F /* RegisterController.swift */,
+				EACD69591FF3B9190073E677 /* ProfileController.swift */,
+				EACD695B1FF3CE6C0073E677 /* ProfielEditController.swift */,
+				EAC1B6721FF44AB500A45F29 /* HomeController.swift */,
+				EAE9C7411FF4FABC00D32802 /* NavigationController.swift */,
+				EAE9C7431FF5127700D32802 /* GalleryController.swift */,
+				EAE9C74A1FF53E8B00D32802 /* GalleryAddController.swift */,
+				EA32E2A81FF564C20037EF50 /* GalleryDetailController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EA015E5B1FF29AED00A61D8F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EA015E5C1FF29AF800A61D8F /* User.swift */,
+				EA015E5E1FF29B1400A61D8F /* Member.swift */,
+				EA015E601FF29B1D00A61D8F /* Skicard.swift */,
+				EAE9C7451FF512D100D32802 /* Image.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EA015E621FF29B3F00A61D8F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EA015E631FF29B4B00A61D8F /* UserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EAE9C7471FF5160800D32802 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EAE9C7481FF5161600D32802 /* GalleryCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA015E511FF29A4E00A61D8F /* Build configuration list for PBXNativeTarget "Skischool" */;
 			buildPhases = (
+				23BCAA84CC71B0F3686F3ECB /* [CP] Check Pods Manifest.lock */,
 				EA015E251FF29A4D00A61D8F /* Sources */,
 				EA015E261FF29A4D00A61D8F /* Frameworks */,
 				EA015E271FF29A4D00A61D8F /* Resources */,
+				A0BDFDAE431DAF9E81D16EDD /* [CP] Embed Pods Frameworks */,
+				EC283DBF9D6DE51D99E54113 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA015E541FF29A4E00A61D8F /* Build configuration list for PBXNativeTarget "SkischoolTests" */;
 			buildPhases = (
+				73D52102037F341A92FD2D03 /* [CP] Check Pods Manifest.lock */,
 				EA015E391FF29A4D00A61D8F /* Sources */,
 				EA015E3A1FF29A4D00A61D8F /* Frameworks */,
 				EA015E3B1FF29A4D00A61D8F /* Resources */,
+				CE999F8EB80FC67EBFADF50A /* [CP] Embed Pods Frameworks */,
+				F89F338997673F3AD1F0F97F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA015E571FF29A4E00A61D8F /* Build configuration list for PBXNativeTarget "SkischoolUITests" */;
 			buildPhases = (
+				019511D6010E7DD34A652565 /* [CP] Check Pods Manifest.lock */,
 				EA015E441FF29A4D00A61D8F /* Sources */,
 				EA015E451FF29A4D00A61D8F /* Frameworks */,
 				EA015E461FF29A4D00A61D8F /* Resources */,
+				8C39AC9DB1078AE7CD7396F8 /* [CP] Embed Pods Frameworks */,
+				1AECDF97D6638701F8BEB042 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +316,7 @@
 				TargetAttributes = {
 					EA015E281FF29A4D00A61D8F = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					EA015E3C1FF29A4D00A61D8F = {
@@ -254,13 +378,181 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		019511D6010E7DD34A652565 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkischoolUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AECDF97D6638701F8BEB042 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkischoolUITests/Pods-SkischoolUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23BCAA84CC71B0F3686F3ECB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Skischool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73D52102037F341A92FD2D03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkischoolTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C39AC9DB1078AE7CD7396F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkischoolUITests/Pods-SkischoolUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0BDFDAE431DAF9E81D16EDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Skischool/Pods-Skischool-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skischool/Pods-Skischool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE999F8EB80FC67EBFADF50A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkischoolTests/Pods-SkischoolTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC283DBF9D6DE51D99E54113 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skischool/Pods-Skischool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F89F338997673F3AD1F0F97F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkischoolTests/Pods-SkischoolTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EA015E251FF29A4D00A61D8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA015E2F1FF29A4D00A61D8F /* ViewController.swift in Sources */,
+				EAE9C7421FF4FABC00D32802 /* NavigationController.swift in Sources */,
 				EA015E2D1FF29A4D00A61D8F /* AppDelegate.swift in Sources */,
+				EA015E661FF29B8400A61D8F /* LoginController.swift in Sources */,
+				EA015E641FF29B4B00A61D8F /* UserService.swift in Sources */,
+				EA015E681FF29F7F00A61D8F /* RegisterController.swift in Sources */,
+				EAC1B6731FF44AB500A45F29 /* HomeController.swift in Sources */,
+				EAE9C7461FF512D100D32802 /* Image.swift in Sources */,
+				EAE9C74B1FF53E8B00D32802 /* GalleryAddController.swift in Sources */,
+				EAE9C7441FF5127700D32802 /* GalleryController.swift in Sources */,
+				EAE9C7491FF5161600D32802 /* GalleryCell.swift in Sources */,
+				EA015E5D1FF29AF800A61D8F /* User.swift in Sources */,
+				EA015E611FF29B1D00A61D8F /* Skicard.swift in Sources */,
+				EA015E5F1FF29B1400A61D8F /* Member.swift in Sources */,
+				EACD695A1FF3B9190073E677 /* ProfileController.swift in Sources */,
+				EACD695C1FF3CE6C0073E677 /* ProfielEditController.swift in Sources */,
+				EA32E2A91FF564C20037EF50 /* GalleryDetailController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,13 +716,19 @@
 		};
 		EA015E521FF29A4E00A61D8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC05CB2C1BB07028B41083C /* Pods-Skischool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62Q6T9K6TM;
 				INFOPLIST_FILE = Skischool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Dylan.Skischool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -438,13 +736,18 @@
 		};
 		EA015E531FF29A4E00A61D8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 507A5FF7E1ED1BE23AADFF23 /* Pods-Skischool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62Q6T9K6TM;
 				INFOPLIST_FILE = Skischool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Dylan.Skischool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,6 +755,7 @@
 		};
 		EA015E551FF29A4E00A61D8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112EB997EA637FA1C746C803 /* Pods-SkischoolTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +772,7 @@
 		};
 		EA015E561FF29A4E00A61D8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68CFA2D2851415E61349854 /* Pods-SkischoolTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +789,7 @@
 		};
 		EA015E581FF29A4E00A61D8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F5FEACB112B01689CDA15B /* Pods-SkischoolUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +805,7 @@
 		};
 		EA015E591FF29A4E00A61D8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 218B7C0A4F87E5A6047CE346 /* Pods-SkischoolUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
