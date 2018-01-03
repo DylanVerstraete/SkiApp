@@ -126,7 +126,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skischoolapp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cEO-22-HX3">
                                 <rect key="frame" x="16" y="49" width="343" height="39.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4U2-2L-PQ9">
@@ -423,6 +423,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Profiel" id="yq9-Mt-tB9">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="ic_power_settings_new" landscapeImage="ic_power_settings_new" id="M39-TH-k7A">
+                            <connections>
+                                <action selector="logout:" destination="HBU-AU-87I" id="SZr-xr-XmR"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Wijzig" id="doS-4n-Mp2">
                             <connections>
                                 <action selector="editProfile:" destination="HBU-AU-87I" id="wBQ-Y6-E5L"/>
@@ -439,9 +444,11 @@
                         <outlet property="nameLabel" destination="MWe-Zx-3I3" id="39a-f9-xAV"/>
                         <outlet property="telephonenumberLabel" destination="nrD-Ad-Pd9" id="qO1-Mb-JqO"/>
                         <segue destination="1B2-Ro-0h6" kind="show" identifier="editProfile" id="icY-Hh-6N1"/>
+                        <segue destination="kCU-xT-yeL" kind="unwind" identifier="logout" unwindAction="unwindFromAllViewsToLogin:" id="HXP-kc-qAu"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tCc-HD-52q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="kCU-xT-yeL" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3038" y="850"/>
         </scene>
@@ -820,6 +827,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Gallerij" id="koF-hI-F7x">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="ic_power_settings_new" landscapeImage="ic_power_settings_new" id="WTf-Oi-8xb">
+                            <connections>
+                                <action selector="logout:" destination="6bZ-PW-yO8" id="DFF-K6-8C9"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="tgv-jI-ajO">
                             <connections>
                                 <segue destination="Gcn-8e-4eG" kind="show" identifier="addGaleryItem" id="63U-EC-6Nz"/>
@@ -829,9 +841,11 @@
                     <connections>
                         <outlet property="thisTableView" destination="EiR-lv-7lP" id="tsv-hV-6uA"/>
                         <segue destination="cR5-Ns-sy6" kind="show" identifier="showGaleryItemDetail" id="ffF-TP-R5E"/>
+                        <segue destination="vpH-rD-Zyc" kind="unwind" identifier="logout" unwindAction="unwindFromAllViewsToLogin:" id="dQm-vo-5pY"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Khw-uP-CY2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="vpH-rD-Zyc" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3102" y="-594"/>
         </scene>
@@ -1216,16 +1230,24 @@
                             <outlet property="delegate" destination="4eq-j3-yHn" id="SnT-Cy-hXn"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Home" id="PUs-4X-gOu"/>
+                    <navigationItem key="navigationItem" title="Home" id="PUs-4X-gOu">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="ic_power_settings_new" landscapeImage="ic_power_settings_new" id="Aq4-TK-aqC">
+                            <connections>
+                                <action selector="logout:" destination="4eq-j3-yHn" id="opY-Gp-ZtS"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="aantalKaartenLabel" destination="5Yk-AG-BXU" id="M9g-VW-CVy"/>
                         <outlet property="aantalSkibeurtenLabel" destination="4wZ-e7-m3m" id="oCs-Ed-KsP"/>
                         <outlet property="koopkaartButton" destination="hDE-IH-fwM" id="zSK-xj-Udb"/>
                         <outlet property="lidstatusLabel" destination="epq-sv-uCL" id="5mt-lJ-wk1"/>
                         <outlet property="wordLidButton" destination="UhS-fJ-W5h" id="3Wb-V9-Aqf"/>
+                        <segue destination="F8u-tT-OM2" kind="unwind" identifier="logout" unwindAction="unwindFromAllViewsToLogin:" id="daf-zq-pzH"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eWn-Ak-Vho" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="F8u-tT-OM2" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3072.8000000000002" y="107.49625187406298"/>
         </scene>
@@ -1253,5 +1275,6 @@
         <image name="ic_home" width="24" height="24"/>
         <image name="ic_insert_photo" width="24" height="24"/>
         <image name="ic_person" width="24" height="24"/>
+        <image name="ic_power_settings_new" width="24" height="24"/>
     </resources>
 </document>

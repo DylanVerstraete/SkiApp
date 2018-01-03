@@ -65,4 +65,8 @@ class ProfileController: UITableViewController {
             print(error)
         }
     }
+    
+    @IBAction func logout(_ sender: Any){
+        self.performSegue(withIdentifier: "logout", sender: self)
+    }
 }

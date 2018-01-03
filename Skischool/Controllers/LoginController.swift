@@ -46,6 +46,17 @@ class LoginController: UIViewController {
         }
     }
     
+    @IBAction func unwindFromAllViewsToLogin(_ segue: UIStoryboardSegue){
+        switch (segue.identifier!) {
+        case "logout":
+            //let registerController = segue.source as! RegisterController
+            //emailField.text = registerController.emailField.text!
+            print("logging user out")
+        default:
+            fatalError("Unknown segue")
+        }
+    }
+    
     
 }
 

@@ -44,6 +44,8 @@ class GalleryController: UITableViewController{
             break
         case "addGaleryItem":
             print("succes")
+        case "logout":
+            print("succes")
         default:
             fatalError("Unknown segue")
         }
@@ -69,6 +71,10 @@ class GalleryController: UITableViewController{
         }) { (error) in
             print(error)
         }
+    }
+    
+    @IBAction func logout(_ sender: Any){
+        self.performSegue(withIdentifier: "logout", sender: self)
     }
     
 }

@@ -78,5 +78,9 @@ class HomeController: UITableViewController {
             })
         }
     }
+    
+    @IBAction func logout(_ sender: Any){
+        self.performSegue(withIdentifier: "logout", sender: self)
+    }
 }
 
