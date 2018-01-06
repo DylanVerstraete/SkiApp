@@ -99,7 +99,7 @@ app.get("/api/users/:email", passport.authenticate('jwt', { session: false }), f
       model:"Member"
     }).exec(function(err,user){
     if(err) next(handleError(res, err.message));
-    
+
     res.json(user);
   })
 });
@@ -174,7 +174,7 @@ app.post("/api/users/addCard/:id", passport.authenticate('jwt', { session: false
     path: "turns", model:"Turn"}).exec(function(err, card){
       if (err) next(handleError(res, err.message));
       card.payed = true;
-      
+
       card.save(function(err){
         if (err) next(handleError(res, err.message));
       });
@@ -193,6 +193,8 @@ app.get('/api/setup', function(req, res, next){
     email: "erik@test.be",
     password: "test",
     member: newMember,
+    firstname: "erik",
+    lastname: "verstraete",
     role: "admin",
     totalskiturns: 0
   });
@@ -269,11 +271,11 @@ app.post("/api/login", function(req,res, next){
 
 app.post("/api/add/pendingMember", passport.authenticate('jwt', { session: false }), function(req, res, next){
   console.log(req.body);
-  
+
   Users.findOne({
     email: req.body.email
   },function(err,user){
-    if (err) next(handleError(res, "User not found", "User doesn't exists", 400));    
+    if (err) next(handleError(res, "User not found", "User doesn't exists", 400));
   })
   .populate({path: "member", model:"Member"})
   .exec(function(err, user) {
@@ -300,7 +302,7 @@ app.post("/api/add/member", passport.authenticate('jwt', { session: false }), fu
   Users.findOne({
     email: req.body.email
   },function(err,user){
-    if (err) next(handleError(res, "User not found", "User doesn't exists", 400));    
+    if (err) next(handleError(res, "User not found", "User doesn't exists", 400));
   }).populate({
       path: "member",
       model:"Member"}).exec(function(err, user) {
@@ -328,7 +330,7 @@ app.post("/api/delete/member", passport.authenticate('jwt', { session: false }),
   Users.findOne({
     email: req.body.email
   },function(err,user){
-    if (err) next(handleError(res, "User not found", "User doesn't exists", 400));    
+    if (err) next(handleError(res, "User not found", "User doesn't exists", 400));
   }).populate({
       path: "member",
       model:"Member"}).exec(function(err, user) {
@@ -355,7 +357,7 @@ app.post("/api/editTurn/", passport.authenticate('jwt', { session: false }), fun
     _id : req.body._id
   }, function(err, turn){
     if(err) next(handleError(res, "Turn not found", "Turn doesn't exists", 400));
-    
+
     turn.minutes = req.body.minutes;
     //turn.used = req.body.used;
 
@@ -368,7 +370,7 @@ app.post("/api/editTurn/", passport.authenticate('jwt', { session: false }), fun
         next(handleError(res, err.message, "User is not a member"));
       }
     });
-    
+
     res.json(turn);
   })
 })
@@ -377,12 +379,12 @@ app.post("/api/image/add" ,passport.authenticate('jwt', { session: false }), fun
   Users.findOne({
     email: req.body.email
   },function(err,user){
-    if (err) next(handleError(res, "User not found", "User doesn't exists", 400));    
+    if (err) next(handleError(res, "User not found", "User doesn't exists", 400));
   }).populate({
       path: "member",
       model:"Member"}).exec(function(err, user) {
     if(err) next(handleError(res, "User not found", "User doesn't exists", 400));
-    
+
     var image = new Image({
       filename: req.body.filename,
       filetype: req.body.filetype,
@@ -411,12 +413,12 @@ app.post("/api/image/add/comment/:id" ,passport.authenticate('jwt', { session: f
   Users.findOne({
     email: req.body.email
   },function(err,user){
-    if (err) next(handleError(res, "User not found", "User doesn't exists", 400));    
+    if (err) next(handleError(res, "User not found", "User doesn't exists", 400));
   }).populate({
       path: "member",
       model:"Member"}).exec(function(err, user) {
     if(err) next(handleError(res, "User not found", "User doesn't exists", 400));
-    
+
     Image.findById({
       "_id":req.params.id
     },function(err,image){
@@ -436,8 +438,4 @@ app.post("/api/image/add/comment/:id" ,passport.authenticate('jwt', { session: f
 //VOORBEELD VOOR JWT AUTHENTICATED ROUTE
 app.get("/api/secret", passport.authenticate('jwt', { session: false }), function(req, res){
   res.json("Success! You can not see this without a token");
-});
-
-app.get('*', function(req, res){
-  res.sendfile(distDir + 'index.html');
 });

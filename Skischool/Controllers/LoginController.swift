@@ -26,11 +26,11 @@ class LoginController: UIViewController {
     }
     
     @IBAction func Login(_ sender: Any) {
-        //if emailField.text != "" && passwordField.text != "" {
-            UserService.login(email: "erik@test.be", password: "test", succes: {
+        if emailField.text != "" && passwordField.text != "" {
+            UserService.login(email: emailField.text!, password: passwordField.text!, succes: {
                 self.performSegue(withIdentifier: "home", sender: self)
             }, failure:{ (response) -> Void in (print(response))})
-        //}
+        }
     }
     
     @IBAction func unwindFromRegister(_ segue: UIStoryboardSegue) {

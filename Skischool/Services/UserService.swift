@@ -76,7 +76,7 @@ class UserService{
                     
                     var member = json["member"] as! [String: Any]
 
-                    let userObj = User(email: self.email!, firstname: (json["firstname"] as? String)!, lastname: (json["lastname"] as? String)!, address: (json["address"] as? String)!, addresspostalcode: (json["addresspostalcode"] as? String)!, addresscity: (json["addresscity"] as? String)!, addressnumber: (json["addressnumber"] as? String)!, telephonenumber: (json["telephonenumber"] as? String)!)
+                    let userObj = User(email: self.email!, firstname: (json["firstname"] as? String) ?? " ", lastname: (json["lastname"] as? String) ?? " ", address: (json["address"] as? String) ?? " ", addresspostalcode: (json["addresspostalcode"] as? String) ?? " ", addresscity: (json["addresscity"] as? String) ?? " ", addressnumber: (json["addressnumber"] as? String) ?? " ", telephonenumber: (json["telephonenumber"] as? String) ?? " ")
                     
                     userObj.totalskiturns = (json["totalskiturns"] as? Int)!
                     
