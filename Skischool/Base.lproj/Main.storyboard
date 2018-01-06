@@ -156,7 +156,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nth-nf-koD">
                                 <rect key="frame" x="86" y="387" width="203" height="30"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Registreer"/>
+                                <state key="normal" title="Registreer">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="Register:" destination="4rf-TS-MBh" eventType="touchUpInside" id="6NX-vV-pQT"/>
                                 </connections>
@@ -164,7 +166,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="26R-Gv-QNa">
                                 <rect key="frame" x="86" y="488" width="203" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Annuleer"/>
+                                <state key="normal" title="Annuleer">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="GoBack:" destination="4rf-TS-MBh" eventType="touchUpInside" id="gSn-3q-pWI"/>
                                     <segue destination="JNz-HC-fYF" kind="unwind" identifier="didNotRegister" unwindAction="unwindFromRegister:" id="oIH-sR-PmE"/>
